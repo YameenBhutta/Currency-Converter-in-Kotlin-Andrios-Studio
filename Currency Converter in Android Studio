@@ -1,3 +1,11 @@
+// Step 1: Create a new project in Android Studio. 
+// Step 2: Select Kotlin as the language for the project.
+// Step 3: Set up the layout of the project. This includes adding a TextView, two EditTexts and a Button.
+// Step 4: Create a function to convert PKR to AFN. This function should take the value of PKR in one EditText and convert it to AFN in the other EditText.
+// Step 5: Create an onClickListener for the Button. This will call the function in Step 4 to perform the conversion.
+// Step 6: In the onCreate() method of the MainActivity class, link the EditTexts and the Button to the variables in the code.
+// Step 7: Run the application and test the functionality.
+// Step 8: Debug and resolve any errors or issues that arise.
 
 
 import android.os.Bundle

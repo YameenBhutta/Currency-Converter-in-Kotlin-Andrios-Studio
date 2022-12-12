@@ -1,0 +1,20 @@
+
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.*
+class MainActivity : AppCompatActivity() {
+override fun onCreate(savedInstanceState: Bundle?) {
+super.onCreate(savedInstanceState)
+setContentView(R.layout.activity_main)
+//Button click listener
+btnConvert.setOnClickListener {
+//Get the value from EditText
+var pkrAmount = etPakCurrency.text.toString().toDouble()
+//Calculate the conversion rate
+var JYenAmount = pkrAmount * 1.63
+//Display the converted value
+tvJYenCurrency.text = JYenAmount.toString()
+}
+}
+}
